@@ -252,7 +252,7 @@ const musicPlayer = {
         // Display a special message when the first song plays
         this.audio.addEventListener('play', () => {
             if (this.currentSong === 0 && this.audio.currentTime < 1) {
-                this.showMessage('I recorded these songs just for you');
+                this.showMessage('I love you as endlessly as a field of wildflowers');
             }
         });
     }
